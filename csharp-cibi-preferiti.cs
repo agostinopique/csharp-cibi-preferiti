@@ -34,12 +34,14 @@ int mediana = length / 2;
 // Se il modulo mi ritorna 0 vuol dire che é pari e dovrò prendere l'elemento entrale più l'elemento precedente;
 if(length % 2 == 0)
 {
+    Console.Write("I cibi di mediana sono: ")
     Console.WriteLine(cibiPreferiti[mediana]);
     Console.WriteLine(cibiPreferiti[mediana - 1]);
 }
 // Altrimenti se non ritorna 0 é dispari e potrò prendere semplicemente l'elemento al centr otramite il rimanente della divisione;
 else
 {
+    Console.Write("Il cibo di mediana é: ")
     Console.WriteLine(cibiPreferiti[mediana]);
 }
 
